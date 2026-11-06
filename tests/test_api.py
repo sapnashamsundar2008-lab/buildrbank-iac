@@ -45,7 +45,7 @@ def test_the_header_reads_support_console():
     while looking like it tells you something.
     """
     r = client.get("/")
-    assert "<small>Support Console</small>" in r.text
+    assert "<small>Sapna's Console</small>" in r.text
 
 
 def test_health_names_the_models():
