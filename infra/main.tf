@@ -16,7 +16,7 @@ terraform {
 
 variable "region" {
   description = "The AWS region to build in. Use the same one as Week 05."
-  default     = "us-east-1"
+  default     = "ap-southeast-2"
 }
 
 variable "name" {
